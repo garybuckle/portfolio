@@ -1,3 +1,8 @@
 {
+  "apexskier.eslint.config.fixOnSave" : "Inherit from Global Settings",
+  "prettier.default-config.singleQuote" : "Global Default",
+  "prettier.format-on-save" : "Global Default",
+  "prettier.format-on-save.ignore-remote" : "Global Default",
+  "prettier.format-on-save.ignore-without-config" : "Global Default",
   "workspace.color" : 13
 }

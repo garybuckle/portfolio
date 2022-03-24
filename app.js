@@ -1,18 +1,22 @@
 const sections = document.querySelectorAll(".section");
-const sectBtn = document.querySelectorAll(".controls");
-const sectBtns = document.querySelectorAll(".control");
-const allSections = document.querySelectorAll(".main-content");
+const sectBtns = document.querySelectorAll(".controls");
+const sectBtn = document.querySelectorAll(".control");
+const allSections = document.querySelector(".main-content");
+console.log("sections", sections);
+console.log("sectBtns", sectBtns);
+console.log("sectBtn", sectBtn);
+console.log("allsections", allSections);
 // TODO: Fix the call back function
 function pageTransitions() {
   // select active buttons
-  for (let i = 0; sectBtn.i < length; i++) {
+  for (let i = 0; i < sectBtn.length; i++) {
     sectBtn[i].addEventListener("click", function () {
-      let currentBtn = document.querySelectorAll(".active-btn");
-      currentBtn[0].className = currentBtn[0].className.replace(
+      let currentActiveBtn = document.querySelectorAll(".active-btn");
+      currentActiveBtn[0].className = currentActiveBtn[0].className.replace(
         "active-btn",
         ""
       );
-      this.className += "active-btn";
+      this.className += " active-btn";
     });
   }
 }
