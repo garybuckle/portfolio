@@ -82,7 +82,19 @@ section {
   transform: translateY(0) scale(1);
   background-color: rgb(89, 204, 193);
 }
-
+// TODO: Fix transition
+.active {
+  display: block;
+  animation: scaleAnim 1s ease-in-out;
+  @keyframes scaleAnim {
+    0% {
+      transform: translateY(-100%) scale(0);
+    }
+    100% {
+      transform: translateY(-100%) scale(0);
+    }
+  }
+}
 .controls {
   position: fixed;
   z-index: 10;

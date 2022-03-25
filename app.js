@@ -6,7 +6,6 @@ console.log("sections", sections);
 console.log("sectBtns", sectBtns);
 console.log("sectBtn", sectBtn);
 console.log("allsections", allSections);
-// TODO: Fix the call back function
 function pageTransitions() {
   // select active buttons
   for (let i = 0; i < sectBtn.length; i++) {
@@ -28,6 +27,12 @@ function pageTransitions() {
         btn.classList.remove("active");
       });
       e.target.classList.add("active");
+      //  Hide the other sections
+      sections.forEach((section) => {
+        section.classList.remove("active");
+      });
+      const element = document.getElementById(id);
+      element.classList.add("active");
     }
   });
 }
