@@ -19,6 +19,17 @@ function pageTransitions() {
       this.className += " active-btn";
     });
   }
+  // TODO: Finish this off
+  allSections.addEventListener("click", (e) => {
+    const id = e.target.dataset.id;
+    console.log(id);
+    if (id) {
+      sectBtns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+      e.target.classList.add("active");
+    }
+  });
 }
 
 pageTransitions();
