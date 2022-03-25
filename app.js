@@ -18,7 +18,6 @@ function pageTransitions() {
       this.className += " active-btn";
     });
   }
-  // TODO: Finish this off
   allSections.addEventListener("click", (e) => {
     const id = e.target.dataset.id;
     console.log(id);
