@@ -60,31 +60,26 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: slateblue;
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #87cc59;
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #cc46c8;
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #cc5971;
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #59ccc1;
 }
 
 .active {
@@ -136,5 +131,19 @@ section {
   color: var(--color-gray-2);
   pointer-events: none;
 }
+
+/* header content */
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+.header-content .left-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Independant content */
 
 /*# sourceMappingURL=styles.css.map */
