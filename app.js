@@ -2,10 +2,7 @@ const sections = document.querySelectorAll(".section");
 const sectBtns = document.querySelectorAll(".controls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
-console.log("sections", sections);
-console.log("sectBtns", sectBtns);
-console.log("sectBtn", sectBtn);
-console.log("allsections", allSections);
+
 function pageTransitions() {
   // select active buttons
   for (let i = 0; i < sectBtn.length; i++) {
@@ -20,7 +17,6 @@ function pageTransitions() {
   }
   allSections.addEventListener("click", (e) => {
     const id = e.target.dataset.id;
-    console.log(id);
     if (id) {
       sectBtns.forEach((btn) => {
         btn.classList.remove("active");
