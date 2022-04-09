@@ -1,1 +1,4 @@
 .DS_Store
+/node_modules
+package.json
+/assets/bootstrap-icons-1.8.1
