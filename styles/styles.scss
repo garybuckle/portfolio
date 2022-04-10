@@ -183,17 +183,17 @@ section {
   }
 }
 
-// about
-.about-container {
+// sport
+.sport-container {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
-  .right-about {
+  .right-sport {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 2rem;
-    .about-item {
+    .sport-item {
       border: 1px solid var(--color-gray-5);
       border-radius: 5px;
       transition: all 0.4s ease-in-out;
@@ -204,7 +204,7 @@ section {
         border: 1px solid var(--color-secondary);
         box-shadow: 1px 2px 15px rgb(0, 0, 0, 0.4);
       }
-      .about-text {
+      .sport-text {
         padding: 1.5rem;
         display: flex;
         flex-direction: column;
