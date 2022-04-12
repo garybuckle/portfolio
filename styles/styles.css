@@ -238,6 +238,17 @@ section {
   height: 2px;
   background-color: var(--color-gray-5);
 }
+.sport-container .left-sport {
+  padding-right: 5rem;
+}
+.sport-container .left-sport p {
+  line-height: 2rem;
+  color: var(--color-gray-1);
+}
+.sport-container .left-sport h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
 
 /* Independent components */
 .btn-container {

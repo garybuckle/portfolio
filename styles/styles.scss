@@ -233,6 +233,17 @@ section {
       }
     }
   }
+  .left-sport {
+    padding-right: 5rem;
+    p {
+      line-height: 2rem;
+      color: var(--color-gray-1);
+    }
+    h4 {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  }
 }
 
 /* Independent components */

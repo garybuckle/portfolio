@@ -7,16 +7,10 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
     />
   </head>
   <body class="main-content">
@@ -30,11 +24,12 @@
         </div>
         <div class="right-header">
           <h1 class="name">
-            Hello! my name is <span>Gary Buckle </span>and I am a Web Developer
+            Hello! my name is <span>Gary Buckle </span>and I work in Web
+            Development
           </h1>
           <p>
-            Front-end, HTML, CSS, JavaScript, NextJS, React, AngularJS, PHP and
-            most modern frameworks.
+            Mostly Front-end, HTML, CSS, JavaScript, NextJS, React, AngularJS,
+            PHP and most modern frameworks.
           </p>
           <div class="btn-container">
             <a
@@ -85,6 +80,32 @@
             </div>
           </div>
         </div>
+        <div class="sports-stats">
+          <h4 class="stat-title"></h4>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="progress-title">Marathons</p>
+              <div class="progress-con">
+                <p class="prog text">90%</p>
+                <div class="progress"><span class="marathons"></span></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="progress-title">Ultras</p>
+              <div class="progress-con">
+                <p class="prog text">10%</p>
+                <div class="progress"><span class="ultras"></span></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="progress-title">Squash</p>
+              <div class="progress-con">
+                <p class="prog text">50%</p>
+                <div class="progress"><span class="squash"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="section sec3 code" id="code"></section>
@@ -92,97 +113,25 @@
       <section class="section sec4 blogs" id="blogs"></section>
 
       <section class="section sec5 contact" id="contact"></section>
-
+      <!-- TODO: Fix icon clicking issue -->
       <div class="controls">
         <div class="control control-1 active-btn" data-id="home">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-house-door"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"
-            />
-          </svg>
+          <img src="/assets/bootstrap-icons-1.8.1/house.svg" alt="" />
         </div>
         <div class="control control-2" data-id="sport">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-activity"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"
-            />
-          </svg>
+          <img src="/assets/bootstrap-icons-1.8.1/activity.svg" alt="" />
         </div>
         <div class="control control-3" data-id="resume">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-file-earmark-person"
-            viewBox="0 0 16 16"
-          >
-            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-            <path
-              d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"
-            />
-          </svg>
+          <img src="/assets/bootstrap-icons-1.8.1/envelope.svg" alt="" />
         </div>
         <div class="control control-4" data-id="code">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-code-slash"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
-            />
-          </svg>
+          <img src="/assets/bootstrap-icons-1.8.1/code.svg" alt="" />
         </div>
         <div class="control control-5" data-id="blogs">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-newspaper"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"
-            />
-            <path
-              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"
-            />
-          </svg>
+          <i class="fa-brands fa-blogger"></i>
         </div>
         <div class="control control-6" data-id="contact">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-person-rolodex"
-            viewBox="0 0 16 16"
-          >
-            <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
-            <path
-              d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"
-            />
-          </svg>
+          <i class="fa-regular fa-code"></i>
         </div>
       </div>
     </main>
