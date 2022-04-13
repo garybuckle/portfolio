@@ -12,13 +12,14 @@ function pageTransitions() {
         "active-btn",
         ""
       );
+
       this.className += " active-btn";
     });
   }
   allSections.addEventListener("click", (e) => {
     const id = e.target.dataset.id;
     if (id) {
-      sectBtns.forEach((btn) => {
+      sectBtn.forEach((btn) => {
         btn.classList.remove("active");
       });
       e.target.classList.add("active");

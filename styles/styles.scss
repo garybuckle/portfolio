@@ -101,7 +101,7 @@ section {
   .active-btn {
     background-color: var(--color-secondary) !important;
     transition: all 0.4s ease-in-out;
-    i {
+    img {
       color: var(--color-white) !important;
     }
   }
@@ -117,7 +117,7 @@ section {
     justify-content: center;
     margin: 0.7rem 0;
     --box-shadow: 0 3px 15px rgba (0, 0, 0, 0.2);
-    i {
+    img {
       font-size: 1.2rem;
       color: var(--color-gray-2);
       pointer-events: none;
@@ -274,7 +274,6 @@ section {
     transition: all 0.4s ease-in-out;
     padding: 1rem;
   }
-  // TODO Fix the hover background transition
   &::before {
     content: "";
     position: absolute;
