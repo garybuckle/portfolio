@@ -312,7 +312,7 @@ section {
   content: "";
   left: 50%;
   width: 40%;
-  height: 30px;
+  height: 1px;
   background-color: var(--color-gray-5);
   transform: translateX(-50%);
 }
