@@ -28,8 +28,8 @@
             Development
           </h1>
           <p>
-            Mostly Front-end, HTML, CSS, JavaScript, NextJS, React, AngularJS,
-            PHP and most modern frameworks.
+            Front-end, HTML, CSS, JavaScript, NextJS, React, AngularJS, PHP and
+            most modern frameworks.
           </p>
           <div class="btn-container">
             <a
@@ -43,15 +43,16 @@
       </div>
     </header>
     <main>
-      <section class="section sec2 sport" id="sport">
+      <section class="section sec2 sport" id="code">
         <div class="main-title">
           <h2>
-            sport and <span>me</span><span class="bg-text">garybuckle</span>
+            Web Development and my<span> skillset</span
+            ><span class="bg-text">garybuckle</span>
           </h2>
         </div>
-        <div class="sport-container">
-          <div class="left-sport">
-            <h4>The healthy section</h4>
+        <div class="code-container">
+          <div class="left-code">
+            <h4>The coding section</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
               aliquid veniam esse, dicta vitae illum natus porro dignissimos
@@ -59,61 +60,78 @@
               laborum dicta.
             </p>
           </div>
-          <div class="right-sport">
-            <div class="sport-item">
-              <div class="sport-text">
-                <p class="large-text">60+</p>
-                <p class="small-text">Marathons <br />Completed!</p>
+          <div class="right-code">
+            <div class="code-item">
+              <div class="code-text">
+                <p class="large-text">HTML</p>
+                <p class="small-text"></p>
               </div>
             </div>
-            <div class="sport-item">
-              <div class="sport-text">
-                <p class="large-text">1</p>
-                <p class="small-text">Ultra Marathon <br />Completed!</p>
+            <div class="code-item">
+              <div class="code-text">
+                <p class="large-text">CSS</p>
+                <p class="small-text"></p>
               </div>
             </div>
-            <div class="sport-item">
-              <div class="sport-text">
-                <p class="large-text">30,000+</p>
-                <p class="small-text">Squash Games <br />Completed!</p>
+            <div class="code-item">
+              <div class="code-text">
+                <p class="large-text">JavaScript</p>
+                <p class="small-text"></p>
+              </div>
+            </div>
+            <div class="code-item">
+              <div class="code-text">
+                <p class="large-text">React</p>
+                <p class="small-text"></p>
+              </div>
+            </div>
+            <div class="code-item">
+              <div class="code-text">
+                <p class="large-text">Php</p>
+                <p class="small-text"></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="sports-stats">
-          <h4 class="stat-title"></h4>
+        <div class="code-stats">
+          <!-- TODO: Style the stat-title -->
+          <h4 class="stat-title">Coding Skills</h4>
           <div class="progress-bars">
             <div class="progress-bar">
-              <p class="progress-title">Marathons</p>
-              <div class="progress-con">
-                <p class="prog text">90%</p>
-                <div class="progress"><span class="marathons"></span></div>
+              <p class="progress-title">HTML</p>
+              <div class="progress-container">
+                <p class="progress-text">60%</p>
+                <div class="progress"><span class="html"></span></div>
               </div>
             </div>
             <div class="progress-bar">
-              <p class="progress-title">Ultras</p>
-              <div class="progress-con">
-                <p class="prog text">10%</p>
-                <div class="progress"><span class="ultras"></span></div>
+              <p class="progress-title">CSS</p>
+              <div class="progress-container">
+                <p class="progress-text">60%</p>
+                <div class="progress"><span class="css"></span></div>
               </div>
             </div>
             <div class="progress-bar">
-              <p class="progress-title">Squash</p>
-              <div class="progress-con">
-                <p class="prog text">50%</p>
-                <div class="progress"><span class="squash"></span></div>
+              <p class="progress-title">JavaScript</p>
+              <div class="progress-container">
+                <p class="progress-text">70%</p>
+                <div class="progress"><span class="js"></span></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="progress-title">ReactJS</p>
+              <div class="progress-container">
+                <p class="progress-text">30%</p>
+                <div class="progress"><span class="react"></span></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section class="section sec3 code" id="code"></section>
-
+      <section class="section sec3 code" id="sport"></section>
       <section class="section sec4 blogs" id="blogs"></section>
-
       <section class="section sec5 contact" id="contact"></section>
-      <!-- TODO: Fix icon clicking issue -->
+      <!-- Controls -->
       <div class="controls">
         <div class="control control-1 active-btn" data-id="home">
           <img
@@ -123,7 +141,16 @@
             height="32"
           />
         </div>
-        <div class="control control-2" data-id="sport">
+        <div class="control control-2" data-id="code">
+          <img
+            src="/assets/bootstrap-icons-1.8.1/code.svg"
+            alt=""
+            width="32"
+            height="32"
+          />
+        </div>
+
+        <div class="control control-3" data-id="sport">
           <img
             src="/assets/bootstrap-icons-1.8.1/activity.svg"
             alt=""
@@ -131,17 +158,9 @@
             height="32"
           />
         </div>
-        <div class="control control-3" data-id="resume">
+        <div class="control control-4" data-id="resume">
           <img
             src="/assets/bootstrap-icons-1.8.1/envelope.svg"
-            alt=""
-            width="32"
-            height="32"
-          />
-        </div>
-        <div class="control control-4" data-id="code">
-          <img
-            src="/assets/bootstrap-icons-1.8.1/code.svg"
             alt=""
             width="32"
             height="32"
